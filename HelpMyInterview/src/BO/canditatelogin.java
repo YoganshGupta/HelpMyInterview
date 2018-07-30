@@ -1,0 +1,34 @@
+package BO;
+
+public class canditatelogin {
+
+	private String uname;
+	private String password;
+	public canditatelogin(String uname, String password) {
+		super();
+		this.uname = uname;
+		this.password = password;
+	}
+	public canditatelogin() {
+		super();
+	}
+	public String getUname() {
+		return uname;
+	}
+	public void setUname(String uname) {
+		this.uname = uname;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	@Override
+	public String toString() {
+		return "canditatelogin [uname=" + uname + ", password=" + password + "]";
+	}
+	
+	
+	
+}
